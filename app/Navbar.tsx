@@ -19,7 +19,9 @@ import Link from "next/link";
           <NavigationMenuItem>
             <SunIcon/>
             </NavigationMenuItem>
-            <NavigationMenuItem>SuperShare</NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link href='/'>SuperShare</Link>
+            </NavigationMenuItem>
             <div className="gap-10"></div>
             <Link href="/docs" legacyBehavior passHref>
     <NavigationMenuLink >
