@@ -23,17 +23,12 @@ import Link from "next/link";
               <Link href='/'>SuperShare</Link>
             </NavigationMenuItem>
             <div className="gap-10"></div>
-            <Link href="/docs" legacyBehavior passHref>
+            <Link href="/upload" legacyBehavior passHref>
     <NavigationMenuLink >
-      Documentation
+      Form
     </NavigationMenuLink>
   </Link>
-          <NavigationMenuItem>
-            <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <NavigationMenuLink>Link</NavigationMenuLink>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
+
         </NavigationMenuList>
       </NavigationMenu>
     )
