@@ -34,7 +34,7 @@ const NewForm = () => {
           <FormItem>
             <FormLabel>Title</FormLabel>
             <FormControl>
-              <Input placeholder="shadcn" {...register('title')}  {...field}/>
+              <Input placeholder="shadcn" {...register('title')}/>
             </FormControl>
             <FormDescription>
               This is your public display name.
@@ -45,12 +45,12 @@ const NewForm = () => {
       />
       <FormField
         control={form.control}
-        name="Text"
+        name="disc"
         render={({ field }) => (
           <FormItem>
             <FormLabel>TextArea</FormLabel>
             <FormControl>
-              <Textarea {...register('disc')} {...field}/>
+              <Textarea  {...register('disc')}/>
             </FormControl>
             <FormDescription>
               This is your public display name.
